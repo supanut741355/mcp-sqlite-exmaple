@@ -1,4 +1,4 @@
-sqlite3 ~./test.db <<EOF
+sqlite3 ./test.db <<EOF
 CREATE TABLE products (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
